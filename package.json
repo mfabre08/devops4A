@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "npx prettier --write ."
+    "prettier": "npx prettier --write .",
+    "eslint": "npx eslint '.' ",
+    "prepare": "husky install",
+    "huski": "npx husky add .husky/commit-msg"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,9 @@
   },
   "homepage": "https://github.com/mfabre08/devops4A#readme",
   "devDependencies": {
-    "prettier": "2.7.0"
+    "eslint": "~8.17.0",
+    "eslint-plugin-react": "~7.30.0",
+    "prettier": "2.7.0",
+    "husky": "^8.0.0"
   }
 }
