@@ -1,0 +1,23 @@
+{
+  "name": "devops4a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfabre08/devops4A.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfabre08/devops4A/issues"
+  },
+  "homepage": "https://github.com/mfabre08/devops4A#readme",
+  "devDependencies": {
+    "prettier": "2.7.0"
+  }
+}
